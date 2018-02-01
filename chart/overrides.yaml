@@ -1,21 +1,21 @@
 image: repository: icpcluster.icp:8500/default/cardashboard
 cloud_services:
-  conversation:
-    credentials: '{
-      "url": "https://gateway.watsonplatform.net/conversation/api",
-      "username": "3cdc471b-00d2-42a3-9905-93e96017d333",
-      "password": "J33pfxZFmS0l"
-    }'
-    workspace: '1425c2a3-948b-45d1-a8e0-f989f467d744'
-  speech_to_text:
-    credentials: '{
-      "url": "https://stream.watsonplatform.net/speech-to-text/api",
-      "username": "e1386c2e-3e48-4ace-9084-ae740a8f6ba3",
-      "password": "KtPbtSVkXdc2"
-      }'
-  text_to_speech:
-    credentials: '{
-      "url": "https://stream.watsonplatform.net/text-to-speech/api",
-      "username": "05511213-50be-4d89-8ca3-247909e67cb0",
-      "password": "W6fvNF0L6XP2"
-      }'
+    conversation:
+        credentials: '{
+        "url": "https://gateway.watsonplatform.net/conversation/api",
+        "username": "3cdc471b-00d2-42a3-9905-93e96017d333",
+        "password": "J33pfxZFmS0l"
+        }'
+        workspace: '1425c2a3-948b-45d1-a8e0-f989f467d744'
+    speech_to_text:
+        credentials: '{
+        "url": "https://stream.watsonplatform.net/speech-to-text/api",
+        "username": "e1386c2e-3e48-4ace-9084-ae740a8f6ba3",
+        "password": "KtPbtSVkXdc2"
+        }'
+    text_to_speech:
+        credentials: '{
+        "url": "https://stream.watsonplatform.net/text-to-speech/api",
+        "username": "05511213-50be-4d89-8ca3-247909e67cb0",
+        "password": "W6fvNF0L6XP2"
+        }'
